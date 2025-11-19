@@ -1,0 +1,15 @@
+{
+    "name": "@gitx/f",
+    "version": "0.0.1",
+    "description": "Force refresh repository",
+    "main": "dist/index.js",
+    "bin": {
+        "@gitx/f": "dist/index.js"
+    },
+    "author": "jsnpx",
+    "repository": "github:jsnpx/gitx-f",
+    "license": "ISC",
+    "scripts": {
+        "build": "npx -y esbuild src/index.js --bundle --minify --outfile=dist/index.js --platform=node"
+    }
+}
